@@ -11,6 +11,8 @@
   --blue_cardline: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
   --black: hsl(hsl(0, 0%, 0%));
+  /* FOOTERS SECTION */
+  --credits: hsl(228, 45%, 44%);
   /* FONT SIZE PARAGRAPH */
   --bodyp: 62,5%;
 }
@@ -31,5 +33,5 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--credits);
 }
