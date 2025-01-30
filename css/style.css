@@ -1,5 +1,5 @@
 /***************/
-/* MAIN STYLES */
+/* ROOT STYLES */
 /***************/
 :root {
   /* PRIMARY COLORS */
@@ -14,20 +14,28 @@
   /* FOOTERS SECTION */
   --credits: hsl(228, 45%, 44%);
   /* FONT SIZE PARAGRAPH */
-  --bodyp: 62,5%;
+  --bodyp: 62, 5%;
   --heading: 2.125rem;
   /* FONT FAMILY */
-  
+  --ff-main: "outfit", sans-serif;
+  /* FONT WEIGHT */
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-600: 600;
 }
 
-
-
+/****************/
+/* MAIN SECTION */
+/****************/
 body {
   background-color: var(--blue_mainbg);
   font-size: var(--bodyp);
   color: var(--white);
 }
 
+#nftcard {
+  
+}
 /******************/
 /* FOOTER SECTION */
 /******************/
