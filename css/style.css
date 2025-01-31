@@ -31,10 +31,25 @@ body {
   background-color: var(--blue_mainbg);
   font-size: var(--bodyp);
   color: var(--white);
+  font-family: var(--ff-main);
+  margin: 100px auto;
+  width: 375px;
 }
 
 #nftcard {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: start; 
+  justify-content: center;
+  background-color: var(--blue_cardbg);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+.nftcard_img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
 }
 /******************/
 /* FOOTER SECTION */
