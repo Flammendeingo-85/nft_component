@@ -140,7 +140,7 @@ body {
 }
 
 .nftcard_balance {
-  display: flex;;
+  display: flex;
 }
 
 .nftcard_etherium {
@@ -163,4 +163,27 @@ body {
   margin-top: 4px;
   margin-right: 7px;
 }
+
+.nftcard_designer {
+  display:flex;
+  width: 100%;
+}
+
+.nftcard_designer img {
+  height: 45px;
+  border: 1px solid var(--white);
+  border-radius: 50px;
+  margin-top: 5px;
+}
+
+.nftcard_designer p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+span {
+  font-size: 2rem;
+  color: var(--white);
+}
+
 
