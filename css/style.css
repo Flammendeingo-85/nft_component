@@ -92,7 +92,6 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
   color: var(--white);
-  
 }
 
 #nftcard {
@@ -165,7 +164,7 @@ body {
 }
 
 .nftcard_designer {
-  display:flex;
+  display: flex;
   width: 100%;
 }
 
@@ -185,5 +184,3 @@ span {
   font-size: 2rem;
   color: var(--white);
 }
-
-
