@@ -5,6 +5,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 * {
@@ -73,8 +74,8 @@ h6 {
   --black: hsl(hsl(0, 0%, 0%));
   --credits: hsl(228, 45%, 44%);
   /* FONT SIZE */
-  --fs-body: 1rem;
-  --fs-heading: 2.125rem;
+  --fs-body: 1.8rem;
+  --fs-heading: 2.4rem;
   /* FONT FAMILY */
   --ff-body: "outfit", sans-serif;
   /* FONT WEIGHT */
@@ -91,6 +92,7 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-body);
   color: var(--white);
+  
 }
 
 #nftcard {
@@ -115,8 +117,29 @@ body {
   border-radius: 1rem;
 }
 
+.nftcard_main h1 {
+  font-weight: var(--fw-600);
+  font-size: var(--fs-heading);
+  margin-bottom: 1rem;
+}
 
+.nftcard_main p {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-300);
+  color: var(--softblue);
+  margin-bottom: 1.5rem;
+}
 
-/******************/
-/* FOOTER SECTION */
-/******************/
+.nftcard_account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--softblue);
+  margin-bottom: 20px;
+}
+
+.nftcard_balance p {
+  color: var(--cyan);
+  margin-right: 100px;
+}
+
