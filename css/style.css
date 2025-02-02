@@ -134,12 +134,33 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid var(--softblue);
+  border-bottom: 0.5px solid var(--softblue);
   margin-bottom: 20px;
+  width: 100%;
+}
+
+.nftcard_balance {
+  display: flex;;
+}
+
+.nftcard_etherium {
+  height: 20px;
+  width: auto;
+  margin-right: 8px;
+  margin-top: 3px;
 }
 
 .nftcard_balance p {
   color: var(--cyan);
-  margin-right: 100px;
+}
+
+.nftcard_expiration {
+  display: flex;
+}
+
+.expiration_clock {
+  height: 20px;
+  margin-top: 4px;
+  margin-right: 7px;
 }
 
